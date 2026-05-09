@@ -13,19 +13,19 @@ import {
 import { initTheme } from './lib/theme.js';
 
 
-// 配置 Monaco 编辑器加载器（使用本地静态资源，避免 CDN 导致加载失败）
+// Configure the Monaco Editor loader (using local static assets to prevent loading failures caused by CDNs).
 import { loader } from '@monaco-editor/react';
 
 
-// 初始化存储
+// Initialize storage
 init();
 initTheme();
 
-// 使用 PUBLIC_URL 确保路径在开发和生产环境中都正确
+//Use PUBLIC_URL to ensure that paths are correct in both development and production environments.
 const publicUrl = process.env.PUBLIC_URL || '';
 const monacoBasePath = `${publicUrl}/vs`;
 
-// 检查 loader 是否存在
+// Check if the loader exists.
 if (loader && typeof loader.config === 'function') {
     loader.config({
         paths: {
@@ -39,7 +39,7 @@ if (loader && typeof loader.config === 'function') {
     });
 }
 
-// 忽略 ResizeObserver 循环警告 （世上最铸币警告）
+// Ignore ResizeObserver Loop Warnings (The World's Dumbest Warning)
 const debounce = (fn, delay) => {
     let timer;
     return function(...args) {
