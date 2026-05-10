@@ -1,27 +1,27 @@
 :root {
     color-scheme: dark;
 
-    /* 背景 */
+    /* Background */
     --background-color: #111;
     --background-color-transparent: #111111aa;
     --background-darker: #0d0d0d;
     --background-overlay: #00000026;
     --background-overlay-light: #00000020;
 
-    /* 表面 */
+    /* Frontground */
     --frontground-color: #222;
     --surface-raised: #2a2a2a;
     --surface-hover: #333;
     --background-button-color: #333;
     --background-button-hover-color: #444;
 
-    /* 模态框 */
+    /* Modal */
     --modal-background: #2a2a2a;
     --modal-border: #3a3a3a;
     --modal-title: #3c3c3c;
     --modal-close: #4c4c4c;
 
-    /* 文本 */
+    /* Text */
     --text-color: #eee;
     --text-color-bright: #ffffff;
     --text-muted: #666;
@@ -29,23 +29,23 @@
     --text-label: #aaa;
     --text-secondary: #c7c7c7;
 
-    /* 边框 */
+    /* Border */
     --border-color: #ffffff1f;
     --border-color-light: #ffffff33;
     --border-color-lighter: #ffffff1a;
 
-    /* 强调色 */
+    /* Accent */
     --accent-color: #0099ff;
     --accent-color-transparent: #0099ff50;
     --accent-color-soft: #0099ff33;
 
-    /* 状态 */
+    /* Errors */
     --error-color: #ff8f8f;
     --error-bg: #40000033;
     --warning-color: #cccc00;
     --warning-text: #ee0;
 
-    /* 阴影 */
+    /* Shadows */
     --shadow-color: rgba(0, 0, 0, 0.24);
     --shadow-soft: 0 10px 30px var(--shadow-color);
     --shadow-card: 0 6px 18px rgba(0, 0, 0, 0.18);
@@ -101,6 +101,54 @@
         --shadow-soft: 0 12px 32px rgba(0, 0, 0, 0.16);
         --shadow-card: 0 6px 18px rgba(0, 0, 0, 0.12);
         --icon-filter: invert(1) brightness(0.3);
+    }
+}
+
+@media (prefers-color-scheme: midnight) {
+    :root {
+        color-scheme: midnight;
+
+    --background-color: #0d0d0d;
+    --background-color-transparent: #0d0d0daa;
+    --background-darker: #000000;
+    --background-overlay: #00000016;
+    --background-overlay-light: #00000010;
+
+    --frontground-color: #111;
+    --surface-raised: #101010;
+    --surface-hover: #222;
+    --background-button-color: #222;
+    --background-button-hover-color: #333;
+
+    --modal-background: #1a1a1a;
+    --modal-border: #2a2a2a;
+    --modal-title: #2c2c2c;
+    --modal-close: #3c3c3c;
+
+    --text-color: #aaa;
+    --text-color-bright: #ffffff;
+    --text-muted: #444;
+    --text-dim: #666;
+    --text-label: #888;
+    --text-secondary: #a7a7a7;
+
+    --border-color: #ffffff1f;
+    --border-color-light: #ffffff33;
+    --border-color-lighter: #ffffff1a;
+
+    --accent-color: #0055aa;
+    --accent-color-transparent: #0055aa50;
+    --accent-color-soft: #0055aa22;
+
+    --error-color: #aa8a8a;
+    --error-bg: #20000033;
+    --warning-color: #accc00;
+    --warning-text: #cc0;
+
+    --shadow-color: rgba(0, 0, 0, 0.24);
+    --shadow-soft: 0 10px 30px var(--shadow-color);
+    --shadow-card: 0 6px 18px rgba(0, 0, 0, 0.18);
+    --icon-filter: none;
     }
 }
 
@@ -194,6 +242,52 @@
     --shadow-soft: 0 12px 32px rgba(0, 0, 0, 0.16);
     --shadow-card: 0 6px 18px rgba(0, 0, 0, 0.12);
     --icon-filter: invert(1) brightness(0.3);
+}
+
+:root[data-theme='midight'] {
+    color-scheme: midight;
+
+    --background-color: #0d0d0d;
+    --background-color-transparent: #0d0d0daa;
+    --background-darker: #000000;
+    --background-overlay: #00000016;
+    --background-overlay-light: #00000010;
+
+    --frontground-color: #111;
+    --surface-raised: #101010;
+    --surface-hover: #222;
+    --background-button-color: #222;
+    --background-button-hover-color: #333;
+
+    --modal-background: #1a1a1a;
+    --modal-border: #2a2a2a;
+    --modal-title: #2c2c2c;
+    --modal-close: #3c3c3c;
+
+    --text-color: #aaa;
+    --text-color-bright: #ffffff;
+    --text-muted: #444;
+    --text-dim: #666;
+    --text-label: #888;
+    --text-secondary: #a7a7a7;
+
+    --border-color: #ffffff1f;
+    --border-color-light: #ffffff33;
+    --border-color-lighter: #ffffff1a;
+
+    --accent-color: #0055aa;
+    --accent-color-transparent: #0055aa50;
+    --accent-color-soft: #0055aa22;
+
+    --error-color: #aa8a8a;
+    --error-bg: #20000033;
+    --warning-color: #accc00;
+    --warning-text: #cc0;
+
+    --shadow-color: rgba(0, 0, 0, 0.24);
+    --shadow-soft: 0 10px 30px var(--shadow-color);
+    --shadow-card: 0 6px 18px rgba(0, 0, 0, 0.18);
+    --icon-filter: none;
 }
 
 html,
