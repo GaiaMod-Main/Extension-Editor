@@ -2,7 +2,7 @@
   "name": "scratch-extension-editor",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://editors.astras.top/scratch-extension-editor/",
+  "homepage": "https://gaiamod-main.github.io/Extension-Editor/",
   "dependencies": {
     "@babel/generator": "^7.26.0",
     "@babel/parser": "^7.26.0",
