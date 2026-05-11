@@ -25,7 +25,7 @@ const Home = props => {
             <div className={styles.mainPanel}>
                 <div className={styles.left}>
                     <div className={styles.logo}>
-                        <img src={logo} className={styles.logoPic} alt="logo" /><span className={styles.title}>Astra Blocktory</span>
+                        <img src={logo} className={styles.logoPic} alt="logo" /><span className={styles.title}>GaiaMod Extension Editor</span>
                     </div>
                     <span className={styles.tip}>{t('What would you like to do?')}</span>
                 </div>
