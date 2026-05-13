@@ -513,9 +513,9 @@ function parseGetInfoMethod(method, scope, comments, blocks, menus) {
                 if (infoObj.id) comments.id = infoObj.id;
                 if (infoObj.color1 || infoObj.color2 || infoObj.color3) {
                     comments.color = [
-                        infoObj.color1 || '#0099ff',
-                        infoObj.color2 || '#0066ff',
-                        infoObj.color3 || '#0033ff',
+                        infoObj.color1 || '#2D2DD2',
+                        infoObj.color2 || '#1515B2',
+                        infoObj.color3 || '#000087',
                     ];
                 }
                 if (infoObj.docsURI) comments.docsURI = infoObj.docsURI;
