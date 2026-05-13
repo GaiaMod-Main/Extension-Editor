@@ -11,7 +11,7 @@ import Tip from '../tip/tip.jsx';
 import styles from './newProject.module.css';
 import { toast } from '../toast/toast.jsx';
 
-const DEFAULT_COLORS = ['#0099ff', '#0066ff', '#0033ff'];
+const DEFAULT_COLORS = ['#2D2DD2', '#1515B2', '#000087'];
 const BUILTIN_LICENSES = ['MPL-2.0', 'MIT', 'GPL-3.0', 'Apache-2.0', 'CC-BY-SA-4.0'];
 
 const Input = props => (
