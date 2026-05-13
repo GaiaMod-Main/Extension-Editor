@@ -140,7 +140,7 @@ export default function NewProject(props) {
         newComment.description = nowDesc || "";
         newComment.author = nowAuthor || "";
         newComment.license = nowLicense || "MPL-2.0";
-        newComment.color = nowColor || ["#0099ff", "#0066ff", "#0033ff"];
+        newComment.color = nowColor || ["#2D2DD2", "#1515B2", "#000087"];
         newComment.docsURI = nowDocsURI || "";
         newComment.menuIconURI = nowMenuIconURI || "";
         newComment.blockIconURI = nowBlockIconURI || "";
