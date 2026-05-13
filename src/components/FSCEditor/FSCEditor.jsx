@@ -28,6 +28,7 @@ const FSCEditor = props => {
         gandi: { name: "Gandi", color: "#17b6f3", logo: gandi },
         zerocat: { name: "ZeroCat", color: "#1867c0", logo: zerocat },
         "40code": { name: "40Code", color: "#1867c0", logo: FZcode },
+         gm: { name: "GaiaMod", color: "#2D2DD2", logo: gm },
     }
     const getPlatform = name => {
         if (platform[name]) return platform[name].name;

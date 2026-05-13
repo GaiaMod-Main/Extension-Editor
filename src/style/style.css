@@ -35,9 +35,9 @@
     --border-color-lighter: #ffffff1a;
 
     /* Accent */
-    --accent-color: #0099ff;
-    --accent-color-transparent: #0099ff50;
-    --accent-color-soft: #0099ff33;
+    --accent-color: #2D2DD2;
+    --accent-color-transparent: #2D2DD250;
+    --accent-color-soft: #2D2DD233;
 
     /* Errors */
     --error-color: #ff8f8f;
@@ -88,9 +88,9 @@
         --border-color-light: #00000026;
         --border-color-lighter: #00000014;
 
-        --accent-color: #0099ff;
-        --accent-color-transparent: #0099ff33;
-        --accent-color-soft: #0099ff1f;
+        --accent-color: #2D2DD2;
+        --accent-color-transparent: #2D2DD233;
+        --accent-color-soft: #2D2DD21f;
 
         --error-color: #c25b5b;
         --error-bg: #ff8f8f33;
@@ -183,9 +183,9 @@
     --border-color-light: #ffffff33;
     --border-color-lighter: #ffffff1a;
 
-    --accent-color: #0099ff;
-    --accent-color-transparent: #0099ff50;
-    --accent-color-soft: #0099ff33;
+    --accent-color: #2D2DD2;
+    --accent-color-transparent: #2D2DD250;
+    --accent-color-soft: #2D2DD233;
 
     --error-color: #ff8f8f;
     --error-bg: #40000033;
@@ -229,9 +229,9 @@
     --border-color-light: #00000026;
     --border-color-lighter: #00000014;
 
-    --accent-color: #0099ff;
-    --accent-color-transparent: #0099ff33;
-    --accent-color-soft: #0099ff1f;
+    --accent-color: #2D2DD2;
+    --accent-color-transparent: #2D2DD233;
+    --accent-color-soft: #2D2DD21f;
 
     --error-color: #c25b5b;
     --error-bg: #ff8f8f33;

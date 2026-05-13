@@ -59,7 +59,7 @@ export function init() {
         "name": "A Extension",
         "id": "aExtension",
         "description": "a extension",
-        "color": ["#0099ff", "#0066ff", "#0033ff"],
+        "color": ["#2D2DD2", "#1515B2", "#000087"],
         "author": "a person",
         "license": "MPL-2.0",
         "docsURI": "",
