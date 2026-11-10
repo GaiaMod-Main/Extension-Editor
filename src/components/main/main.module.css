@@ -70,6 +70,6 @@ svg{
 
 .mainContainer {
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
     width: 100%
 }

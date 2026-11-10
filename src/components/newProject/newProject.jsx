@@ -209,7 +209,7 @@ export default function NewProject(props) {
                                 )}
                             </div> :
                             <div style={{
-                                width: "200px"
+                                maxWidth: "200px"
                             }}>
                                 <Tip title={t('Empty extension id')} />
                             </div>

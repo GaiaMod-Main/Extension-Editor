@@ -11,6 +11,13 @@ import {
     setAllValue
 } from './extension/storage'
 import { initTheme } from './lib/theme.js';
+import { detectBrowserLanguage } from './i18n/index.js';
+
+const monacoLanguage = (() => {
+    const lang = detectBrowserLanguage();
+    if (lang === 'zh') return 'zh-cn';
+    return 'en';
+})();
 
 
 // Configure the Monaco Editor loader (using local static assets to prevent loading failures caused by CDNs).
@@ -33,7 +40,7 @@ if (loader && typeof loader.config === 'function') {
         },
         'vs/nls': {
             availableLanguages: {
-                '*': 'zh-cn'
+                '*': monacoLanguage
             }
         }
     });

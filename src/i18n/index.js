@@ -6,6 +6,16 @@ const STORAGE_KEY = 'app_language';
 // 默认语言
 const DEFAULT_LANGUAGE = 'en';
 
+export const detectBrowserLanguage = () => {
+    try {
+        const lang = (navigator.language || navigator.browserLanguage || '').toLowerCase();
+        if (lang.startsWith('zh')) return 'zh';
+        return 'en';
+    } catch {
+        return DEFAULT_LANGUAGE;
+    }
+};
+
 // 支持的语言列表
 export const SUPPORTED_LANGUAGES = [
     { code: 'en', name: 'English' },
@@ -268,7 +278,11 @@ const translations = {
 
 // 获取当前语言
 export const getCurrentLanguage = () => {
-    return localStorage.getItem(STORAGE_KEY) || DEFAULT_LANGUAGE;
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) return stored;
+    const detected = detectBrowserLanguage();
+    localStorage.setItem(STORAGE_KEY, detected);
+    return detected;
 };
 
 // 设置语言
